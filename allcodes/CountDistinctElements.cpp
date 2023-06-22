@@ -1,7 +1,7 @@
 //count distinct elements
 
 
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 
 int countDistinct(int arr[], int n){
