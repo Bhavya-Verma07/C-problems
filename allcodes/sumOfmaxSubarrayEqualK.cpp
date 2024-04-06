@@ -7,6 +7,7 @@
 #include<stdio.h>
 #include <algorithm>
 #include <vector>
+#include <math.h>
 using namespace std;
 
  int lenOfLongSubarr(int A[],  int N, int K) 
@@ -38,7 +39,7 @@ using namespace std;
 int lenOfLongSubarr(int A[],  int N, int K) 
     { 
         // Complete the function
-        map<long long, long long> preSumMap;
+       map<long long, long long> preSumMap;
         long long sum=0;
        long long maxlen = 0;
       
@@ -57,10 +58,7 @@ int lenOfLongSubarr(int A[],  int N, int K)
             }
             preSumMap[sum] =i;
         }
-        return maxlen;
-        
-        
-     
+        return maxlen; 
     } 
 
 

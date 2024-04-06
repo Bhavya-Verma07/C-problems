@@ -9,6 +9,9 @@ int main()
 {
   int arr[]={3,4,5,3};
   int n= sizeof(arr)/sizeof(arr[0]);
+
+// --------brut-------
+
 //   int maxi= 1;
 //   for(int i=0; i<n; i++){
 //       int count=0;
@@ -22,6 +25,9 @@ int main()
 //   }
 //   cout<<maxi;
 //    return 0;
+
+
+// -------brut--------
 
 int maxi= arr[0];
 int i=0;
