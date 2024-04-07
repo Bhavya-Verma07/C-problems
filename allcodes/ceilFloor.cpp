@@ -1,5 +1,5 @@
 #include <iostream>
-#include<bits/stdc++.h>
+// #include <bits/stdc++.h>
 
 using namespace std;
 
@@ -9,7 +9,7 @@ int main()
       v= 10.0/3.0;
     float ceils= ceil(v);
       float floors= ceil(v);
-    cout<<ceils<<"  "floors;
+    cout<<ceils<<"  "<<floors;
 
     return 0;
 }
