@@ -46,3 +46,26 @@ cout<<count;
 return -1;
 
 }
+
+//Approach 2 -----------
+// int main()
+// {
+//     int n;
+//     cin>>n;
+//   int arr[n];
+//   for(int j=0; j<n; j++){
+    
+//     cin>>arr[j];
+//   }
+
+//    int maxi=arr[0];
+//    int c=1;
+//    for(int i=0; i<n; i++){
+//        if(arr[i]>maxi){
+//            c++;
+//            maxi = arr[i];
+//        }
+//    }
+//    cout<<c<<endl;
+//    return 0;
+// }
